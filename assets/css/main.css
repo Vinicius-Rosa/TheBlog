@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+header{ 
+    height: 90vh;
+    background-image: url('../img/header-bg.png'); 
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.sec-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30vh 0;
+}
+
+.title{ font-size: 3em; font-weight: bold; }
+    .dot-color{ color: lawngreen; }
+    .subtitle{ font-size: 1.2em; }
+
+h1{ font-size: 2.5em; font-weight: bold; }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.nav-ul{
+    display: flex;
+}
+    .nav-ul li{
+        padding: 0 40px;
+    }
